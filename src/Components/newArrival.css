@@ -1,0 +1,28 @@
+.carousel-item {
+  transition: 1s ease-in-out;
+}
+
+.position-relative{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.70);
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.position-relative:hover .overlay{
+    opacity: 1;
+}

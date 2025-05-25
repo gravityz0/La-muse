@@ -1,0 +1,22 @@
+.font{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400 !important;
+    font-size: 50px !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+}
+
+.bg-custom{
+    background: linear-gradient(171.87deg, #365B7C 62.82%, #63A6E2 106.81%);
+}
+
+.nav-link:hover{
+    color: black !important;
+    transition: color .5s ease-in-out !important;
+}
+
+.font-langar{
+  font-family: "Langar", system-ui;
+  font-weight: 400;
+  font-size: 30px;
+}

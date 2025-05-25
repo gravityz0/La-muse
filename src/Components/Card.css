@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px){
+    .edit{
+        width: 500px;
+    }
+
+    .responsive-image-2{
+        margin-top: 100px;
+    }
+}
+
+.font-style,
+.font-style-1,
+.font-style-p2,
+.font-style-p3,
+.font-style-p4,
+.font-style-p5{
+    font-family: "Karma", serif;
+}
+.font-style-p1{
+    font-family: "Artifika", serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.font-style{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.font-style-1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.font-style-p2,
+.font-style-p4{
+    font-weight: 700;
+}
+
+.font-style-p3,
+.font-style-p5{
+    font-weight: 600;
+}
