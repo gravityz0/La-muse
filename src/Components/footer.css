@@ -1,0 +1,42 @@
+.social-media{
+    position: absolute;
+    background-color: rgb(189, 18, 18);
+    top: 30%;
+    left: 40%;
+    height: 40%;
+    width:20%;
+    border-radius: 10px;
+}
+
+.svg{
+    overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+    .social-media{
+    top: 30%;
+    left: 25%;
+    height: 40%;
+    width: 50%;
+    }
+    
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px ) {
+    .social-media{
+    top: 30%;
+    left: 35%;
+    height: 40%;
+    width: 30%;
+    }
+}
+
+
+@media only screen and (width: 768px) and (orientation: portrait) {
+    .social-media{
+    top: 30%;
+    left: 35%;
+    height: 40%;
+    width: 30%;
+    }
+}
