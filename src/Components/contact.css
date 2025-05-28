@@ -32,11 +32,42 @@
     width: 3px;
     height: 1.5rem;
     border-radius: 20px;
-    /* margin-left: 5px; */
+}
+.description{
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.contact{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.icons-contact i{
+    color: white;
+    background-color: #022f72;
+    border-radius: 10px;
+    padding: 0.5rem !important;
+}
+
+.order{
+    font-weight: 600;
+    font-size: 34px;
+    color: rgb(20, 20, 20);
+}
+.first-container{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .inputs-wrapper label{
     margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .textArea{
@@ -67,6 +98,9 @@
     color: white;
     background-color:  #022f72;
     transition: .3s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 button:hover{

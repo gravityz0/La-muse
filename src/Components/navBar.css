@@ -5,6 +5,15 @@
     line-height: 1 !important;
     letter-spacing: 0 !important;
 }
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
 
 .bg-custom{
     background: linear-gradient(171.87deg, #365B7C 62.82%, #63A6E2 106.81%);
@@ -15,8 +24,18 @@
     transition: color .5s ease-in-out !important;
 }
 
-.font-langar{
-  font-family: "Langar", system-ui;
+.font-lavishly{
+  font-family: "Lavishly Yours", cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 50px;
+}
+
+.font-desc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.general-font{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }

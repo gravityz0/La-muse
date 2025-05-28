@@ -38,11 +38,11 @@ const handleSlide = (e)=>{
 }
 
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5' data-aos = "fade-up" id="shop">
         <div className="text">
-            <h2 className='text-center'>New Arrivals</h2>
+            <h2 className='text-center font-arrival'>New Arrivals</h2>
           
-                <ul className="nav justify-content-center mt-3">
+                <ul className="nav justify-content-center mt-3 general-font">
                     {['Women', 'Men', 'Shoes','Accessories'].map((label,index)=>(
                         <li className="nav-item" key={index}>
                             <a className={`nav-link ${

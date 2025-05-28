@@ -7,7 +7,7 @@ import './Card.css'
 const Card = () => {
   return (
     <div className="container d-md-flex gap-4 mt-5">
-        <div className="card mb-3 shadow align-items-center text-center justify-content-center edit" style={{
+        <div className="card mb-3 shadow align-items-center text-center justify-content-center edit custom" data-aos = "fade-up" data-aos-delay ="300" data-aos-easing="ease-in-out" style={{
             backgroundImage: `url(${CardImage3})`,
             backgroundSize: 'cover',
             overflow: 'hidden',
@@ -29,7 +29,7 @@ const Card = () => {
 
         <div className=''>
 
-            <div className="card mb-3 shadow" style={{maxWidth: "540px"}}>
+            <div className="card mb-3 shadow custom" data-aos = "fade-up" data-aos-delay ="500" data-aos-easing="ease-in-out" style={{maxWidth: "540px"}}>
             <div className="row g-0">
                 <div className="col-md-4 order-md-2">
                     <img src={CardImage1} className="img-fluid rounded-start" alt="..."/>
@@ -44,7 +44,7 @@ Shop now before it's gone – limited stock available!</p>
             </div>
         </div>
 
-            <div className="card mb-3 shadow" style={{maxWidth: "540px"}}>
+            <div className="card mb-3 shadow custom"  data-aos = "fade-up" data-aos-delay ="700" data-aos-easing="ease-in-out" style={{maxWidth: "540px"}}>
             <div className="row g-0">
                 <div className="col-md-4 order-md-2">
                     <img src={CardImage2} className="img-fluid rounded-start" alt="..."style={{objectFit: 'cover',height: '100%'}}/>

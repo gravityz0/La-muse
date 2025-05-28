@@ -1,6 +1,5 @@
 .social-media{
     position: absolute;
-    background-color: rgb(189, 18, 18);
     top: 30%;
     left: 40%;
     height: 40%;
@@ -8,8 +7,36 @@
     border-radius: 10px;
 }
 
+.creative{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .svg{
     overflow: hidden;
+}
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    align-items: center;
+    gap: 5px;
+}
+.icon-footer{
+    background-color: white;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+.icon-footer:hover{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    background: none;
 }
 
 @media all and (max-width: 768px) {
